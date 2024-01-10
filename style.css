@@ -1,0 +1,89 @@
+header {
+    background-image: linear-gradient(rgb(173, 192, 241), rgb(235, 208, 208));
+    background-repeat: no-repeat;
+    max-width: 1300px;
+    padding: 40px 40px;
+    height: 500px;
+    margin: 0 auto;
+
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-item ul {
+    display: flex;
+
+}
+
+.nav-item li {
+    list-style: none;
+}
+
+.nav-item li a {
+    text-decoration: none;
+    margin-right: 15px;
+    background-color: rgb(94, 93, 92);
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.nav-input input {
+    width: 250px;
+    padding: 10px;
+    color: rgb(48, 50, 51);
+    background-color: rgb(160, 154, 154);
+    border: 0;
+    border-radius: 10px;
+}
+
+/* header section end */
+
+.main-container {
+    margin: 0 auto;
+    max-width: 1300px;
+
+}
+
+/* Home */
+
+
+/* product details */
+.product-details {
+    margin-top: 50px;
+}
+
+.product-details h1 {
+    text-align: center;
+    color: rgb(0, 216, 0);
+    font-size: 50px;
+}
+
+.product-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.food {
+    box-shadow: 3px 4px 4px 3px slategrey;
+    border-radius: 15px;
+}
+
+.food img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.food h3, p{
+    text-align: center;
+}
